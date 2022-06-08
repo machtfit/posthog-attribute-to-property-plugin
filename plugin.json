@@ -1,0 +1,16 @@
+{
+    "name": "element-attribute-to-property",
+    "config": [
+        {
+            "markdown": "Specify the prefix for html element attributes that should be added to events as property"
+        },
+        {
+            "key": "prefix",
+            "name": "Attribute Prefix",
+            "type": "string",
+            "hint": "if a the html attribute starts with this string, add it as a property to the event",
+            "default": "data-ux",
+            "required": true
+        }
+    ]
+}
